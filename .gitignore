@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python scripts used during development
+__pycache__/
+*.pyc
+make_icons.py
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build artifacts
+*.zip

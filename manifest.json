@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "VoiceFlow - Voice to Text",
+  "version": "1.0",
+  "description": "Speak your prompt. Copy it. Paste into Claude, ChatGPT or Gemini. 2.5x faster than typing.",
+  "action": {
+    "default_icon": {
+      "16":  "icons/icon16.png",
+      "48":  "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "VoiceFlow - Click to start dictating"
+  },
+  "icons": {
+    "16":  "icons/icon16.png",
+    "48":  "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+}
